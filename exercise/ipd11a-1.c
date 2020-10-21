@@ -5,6 +5,10 @@ struct circle
     double x, y, radius;
 };
 
+//Answer to IPD a-3
+//Both times program crashed
+//Maybe because we are passing null for the struct pointer
+
 // Scales the radius of circle `*p` by factor `f`.
 void scale_circle(struct circle* p, double f)
 {
